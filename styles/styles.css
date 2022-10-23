@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    width: 100vw;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.container {
+    width: 40vw;
+    margin-inline: auto;
+}
+.section1 {
+    background-color: #1F2937;
+}
+.nav-bar {
+    display: flex;
+    width: 70%;
+    margin-inline: auto;
+}
+.logo {
+    width: 50%;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.links {
+    width: 50%;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+.intro-img > img {
+    width: 250px;
+    height: 150px;
+}
