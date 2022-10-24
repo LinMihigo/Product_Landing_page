@@ -12,28 +12,35 @@ body {
 }
 
 .nav-bar {
-    display: flex;
-    margin-inline: 20px;
+    margin-inline: auto;
     width: 80%;
 }
+.inline-block {
+    display: inline-block;
+}
 .logo {
-    width: 10rem;
+    width: 40%;
     font-size: 24px;
     color: #F9FAF8;
 }
 .links {
-    width: auto;
+    width: 40%;
     font-size: 18px;
     color: #E5E7EB;
 }
-ul {
+
+.list {
     list-style-type: none;
-    display: flex;
+    display: inline-flex;
+    justify-content: center;
     align-items: center;
-    justify-content: right;
 }
-ul > li {
+.list > li {
     margin-right: 10px;
+    width: 3rem;
+}
+.list > li:first-of-type {
+    padding-left: 7rem;
 }
 .intro {
     display: flex;
